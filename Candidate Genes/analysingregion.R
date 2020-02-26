@@ -8,7 +8,7 @@ setwd("/home/sandra/mastersprojectanalysis/allOverNight")
 source("genesinregions.R")
 source("snpcalling.R")
 
-regions <- read.table("QTL_regions52019.txt", sep = "\t", header = TRUE)
+regions <- read.table("QTL_regions_Lod1.5.txt", sep = "\t", header = TRUE)
 
 setwd("/home/sandra/mastersprojectanalysis/allOverNight/")
 
